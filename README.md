@@ -48,7 +48,7 @@ Launch `Europa_Client.exe` through the created shortcut.
 2. Create/use the client shortcut with the parameters above.
 3. Start the client through the shortcut.
 
-![Lobby](screenshot.png)
+![Lobby](screenshot.jpg)
 
 ## Disclaimer
 
