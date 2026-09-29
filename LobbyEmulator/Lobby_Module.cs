@@ -1,4 +1,4 @@
-﻿using LobbyEmulator.Logic;
+using LobbyEmulator.Logic;
 using LobbyEmulator.Utils;
 using System;
 using System.Net;
@@ -65,6 +65,7 @@ namespace LobbyEmulator
       }
       finally
       {
+        _logic.Init = false;
         ConsoleLogger.LogEvent($"[LobbyLoader]", "Client disconnected");
       }
     }
